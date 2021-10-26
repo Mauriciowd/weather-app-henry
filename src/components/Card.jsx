@@ -11,8 +11,8 @@ export default function Card({ max, min, name, img, onClose }) {
     <div>
       <button onClick={handleOnClose}>X</button>
       <span>{name}</span>
-      <CardTemp Label="Min" value={min} />
-      <CardTemp Label="Max" value={max} />
+      <CardTemp label="Min" value={min} />
+      <CardTemp label="Max" value={max} />
       <img
         src={`http://openweathermap.org/img/wn/${img}@2x.png`}
         alt="imagen del clima"
